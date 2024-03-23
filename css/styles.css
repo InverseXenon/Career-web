@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #007bff; /* Blue background color */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.container {
+    max-width: 1200px; /* Set max width for content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    flex: 1; /* Expand to fill available space */
+}
+
+.logo img {
+    width: 150px; /* Set logo width */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for layout */
+}
+
+nav ul li {
+    margin-left: 20px; /* Add spacing between links */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from first link */
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Set font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 40px 0; /* Add padding to the top and bottom */
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+section {
+    padding: 40px; /* Add padding to sections */
+}
+
+h2 {
+    margin-bottom: 20px; /* Add spacing below headings */
+    font-size: 24px; /* Set font size for headings */
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+.footer-links {
+    list-style: none; /* Remove bullet points */
+}
+
+.footer-links li {
+    display: inline; /* Display links inline */
+    margin-right: 20px; /* Add spacing between links */
+}
+
+.footer-links li:last-child {
+    margin-right: 0; /* Remove margin from last link */
+}
+
+.footer-links li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.footer-links li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
